@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  nav {
+    flex-grow: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #000;
+    background-color: darkgrey;
+    padding: 10px;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .recetas {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .receta {
+    margin-bottom: 20px;
+  }
+  
+  .receta img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .info-receta {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .info-receta h3 {
+    margin-top: 0;
+  }
+  
+  .info-receta button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .info-receta button:hover {
+    background-color: #444;
+  }
+  
+  /* Estilos para la información desplegable */
+  .info-receta .descripcion {
+    display: none;
+  }
+  
+  .info-receta button:hover + .descripcion {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .descripcion p {
+    margin-bottom: 10px;
+  }
+  
+  .informacion-adicional {
+    display: none; /* Ocultamos la información adicional por defecto */
+  }
+  
+  .ver-mas {
+    cursor: pointer; /* Cambiamos el cursor para indicar que es un botón */
+  }
+  .pie{
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .pie titulo{
+    color: #fff;
+    text-decoration: none;
+  }
+  .datos{
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #000;
+    background-color: darkgrey;
+    padding: 10px;
+  }
+  .titulo{
+    color: #444;
+    text-align: center;
+  }
+  .espacio{
+    padding: 15px;
+    text-align: center;
+  }
